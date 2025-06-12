@@ -16,7 +16,8 @@
         width: 100%;
         height: 600px;
         background: grey;
-        background:url("Images/Landscape-Color.jpg"); 
+        background:url("Images/tp1.jpg"); 
+       
 
     }
      #home h2{
@@ -25,35 +26,117 @@
     #about{
         width: 100%;
         height: 600px;
-        background: darkblue;
+        background: #997665;
+        
     }
 
     #contact{
         width: 100%;
         height: 600px;
-        background: black;
+        background: #eceae1;
     }
 
     #galary{
         width: 100%;
         height: 600px;
-        background: deepskyblue;
+        background: #997665;
+        
     }
     ul{
         float: right;
          margin-right: 40px;
          display: inline-flex;
          gap: 40px;
+         
     }
-    li{
+
+    .menu li{
         list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .menu li a{
+        text-decoration: none;
     }
 
     
     .navbar{
         width: 100%;
-        height: 50px;
+        height: 70px;
     }
+
+    .maindiv{
+        width: 100%;
+        height: 600px;
+        margin-top: 30px;
+        display: inline-flex;
+    }
+
+    .maindiv-left{
+        width: 55%;
+        height: 600px;
+        background : transparent;
+        padding: 50px 190px;
+    }
+
+    .maindiv-left h4{
+        color: #997665;
+        font-size: 30px;
+
+    }
+
+    .maindiv-left h1{
+        font-size: 60px;
+
+    }
+    .t2{
+        margin-top: -40px;
+    }
+
+    .service , .contact{
+        width: 20%;
+        height: 70px;
+        margin-top: 30px;
+        background: white;
+        color: #735c50 ;
+        border-color: #735c50;
+        border:3px solid #735c50;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .maindiv-left h3{
+        color: #71716c;
+    }
+
+    .maindiv-left h5{
+        font-size: 15px;
+        color: #71716c ;
+        margin-top: 30px;
+    }
+
+    .maindiv-left a {
+        color: #71716c ;
+        font-size: 15px;
+
+    }
+
+    .maindiv-right{
+        width: 45%;
+        height: 600px;  
+    }
+
+    #service{
+        width: 100%;
+        height: 600px;
+    }
+
+    
+
+
+
 
     
 
@@ -73,13 +156,52 @@
         </div>
     </div>
 
+
+
+
+
+
+
+
     <section id="home">
-        <div>
-        <center>
-       <h2>Home</h2>
-       </center>
-   </div>
+        <div class="maindiv">
+
+            <div class="maindiv-left">
+                <h4>- Mene Insuranace And Investment -</h4>
+                <h1>Grow Your </h1>
+                <h1 class="t2">Wealth With Us</h1>
+                <h3>We help you to grow your wealth and secure your life</h3>
+
+
+                <button class="service">Our Services -> </button>
+                 <button class="contact">Contact Us -> </button>
+                 <h5><a herf="#contact">Contact Us For  Free Brochure!!!</a></h5>
+                
+            </div>
+
+            <div class="maindiv-right">
+                <img style="width: 400px; height: 500px; margin-right: 120px; margin-top: 50px; "src="Images/person2.png">
+            </div>
+
+        </div>
+
+        
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section id="about">
         <div>
@@ -88,6 +210,15 @@
        </center>
        </div>
     </section>
+
+    <section id="service">
+        <div>
+        <center>
+       <h2>Services we provide</h2>
+       </center>
+       </div>
+    </section>
+
 
     <section id="contact">
         <center>
